@@ -5,7 +5,7 @@ This repository contains the file of regular sessions for adopting the  JCP  spe
 After cloning the repository, install the json-ri in local repository with this command:  
 ```mvn install:install-file -Dfile=javax.json.bind-api.jar -DgroupId=org.eclipse.persistence -DartifactId=jsonb-ri -Dversion=1.0-SNAPSHOT -Dpackaging=jar ```
   
-Modify the pom.xml file of your Java web application like this (this is a basic configuration that can be more complex):   
+Create a maven java enterprise application (we used NetBeans; [follow instruction here](https://netbeans.org/kb/docs/javaee/maven-entapp.html)) and modify the pom.xml file of your Java web application like this (this is a basic configuration that can be more complex):   
 
 ```
     <properties>
