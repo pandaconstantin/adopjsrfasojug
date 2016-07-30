@@ -7,8 +7,7 @@ After cloning the repository, install the json-ri in local repository with this 
   
 Modify  your pom.xml as the instructions below :
 
-    
-    ```
+```
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <maven.compiler.source>1.8</maven.compiler.source>
